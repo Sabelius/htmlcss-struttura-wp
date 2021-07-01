@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px 100px;
+}
+header{
+    background-color: magenta;
+    height: 100px;
+    width: 100%;
+}
+.dimension{
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+.main-content{
+    background-color: rgb(214, 214, 59);
+}
+.main-content2{
+    background-color: rgb(96, 167, 211);
+}
