@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    margin: 20px 100px;
+.container{
+    margin: 10px 50px;
 }
 header{
     background-color: magenta;
@@ -35,13 +35,13 @@ header{
     border: 10px solid rgb(80, 80, 235);
     display: inline-block;
 }
-.laterale{
+.side{
     height: 500px;
     width: 25%;
     border-left: none;
     border-right: none;
 }
-.centrale{
+.central{
     height: 500px;
     width: 50%;
 }
