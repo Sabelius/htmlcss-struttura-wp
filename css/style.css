@@ -9,16 +9,42 @@ body{
 header{
     background-color: magenta;
     height: 100px;
-    width: 100%;
 }
 .dimension{
-    height: 500px;
     width: 100%;
     margin-top: 20px;
 }
 .main-content{
     background-color: rgb(214, 214, 59);
+    height: 400px;
 }
 .main-content2{
     background-color: rgb(96, 167, 211);
+    height: 600px;
+}
+.blocks-description{
+    height: 100px;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.block{
+    float: left;
+    border: 10px solid rgb(80, 80, 235);
+    display: inline-block;
+}
+.laterale{
+    height: 500px;
+    width: 25%;
+}
+.centrale{
+    height: 500px;
+    width: 50%;
+}
+footer{
+    background-color: rgb(98, 26, 165);
+    height: 50px;
+    margin-top: 10px;
 }
