@@ -24,26 +24,29 @@ header{
 }
 .blocks-description{
     height: 100px;
+    border: 5px solid rgb(80, 80, 235);
 }
 .clearfix::after{
     content:"";
     display: table;
     clear: both;
 }
+.block-content{
+    margin:10px 0;
+}
 .block{
     float: left;
-    border: 10px solid rgb(80, 80, 235);
+    border: 5px solid rgb(80, 80, 235);
     display: inline-block;
 }
 .side{
-    height: 500px;
+    height: 480px;
     width: 25%;
-    border-left: none;
-    border-right: none;
 }
 .central{
-    height: 500px;
-    width: 50%;
+    height: 480px;
+    width:calc(50% - 20px);
+    margin:0 10px;
 }
 footer{
     background-color: rgb(98, 26, 165);
