@@ -24,7 +24,7 @@ header{
 }
 .blocks-description{
     height: 100px;
-    border: 5px solid rgb(80, 80, 235);
+    background-color:rgb(80, 80, 235);
 }
 .clearfix::after{
     content:"";
@@ -36,7 +36,7 @@ header{
 }
 .block{
     float: left;
-    border: 5px solid rgb(80, 80, 235);
+    background-color: rgb(80, 80, 235);
     display: inline-block;
 }
 .side{
