@@ -38,6 +38,8 @@ header{
 .laterale{
     height: 500px;
     width: 25%;
+    border-left: none;
+    border-right: none;
 }
 .centrale{
     height: 500px;
