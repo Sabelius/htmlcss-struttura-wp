@@ -36,13 +36,12 @@ header{
 .block{
     float: left;
     background-color: rgb(80, 80, 235);
+    height: 480px;
 }
 .side{
-    height: 480px;
     width: 25%;
 }
 .central{
-    height: 480px;
     width:calc(50% - 20px);
     margin:0 10px;
 }
